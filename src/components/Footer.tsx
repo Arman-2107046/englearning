@@ -128,10 +128,9 @@ const Footer: React.FC = () => {
               alt="ENG Learning Logo"
               className="h-16"
             />
-            <p className="text-gray-400 mt-4 leading-relaxed">
-              প্রবর্তনের জন্য বিদ্যার আলোয়...
-            </p>
-            <p className="text-gray-400">উত্তম, একটু আলোকিত দোর</p>
+            <p className="text-gray-400 mt-4 leading-relaxed max-w-[18rem]">
+One of the Best Online Platforms for Learning English for Students, Professionals & Job seekers.            </p>
+            {/* <p className="text-gray-400">উত্তম, একটু আলোকিত দোর</p> */}
           </div>
 
           {/* Help Section */}
@@ -187,12 +186,15 @@ const Footer: React.FC = () => {
             <h3 className="text-blue-400 font-semibold mb-4 uppercase tracking-wide">
               Get In Touch
             </h3>
-            <p className="text-gray-400 mb-2">Address: Dhaka, Bangladesh</p>
+            <p className="text-gray-400 mb-2">Address: Agargaon, Dhaka, Bangladesh </p>
             <p className="text-gray-400 mb-2">
-              Helpline: 01518465877, 01343577627
+              Helpline: 01605299524, 01778832924
+            </p>
+            <p className="text-gray-400 mb-2">
+              WhatsApp: 01605299524
             </p>
             <p className="text-gray-400 mb-4">
-              Email: tutorcenter.online@gmail.com
+              Email: engbcsenglish@gmail.com
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="#" className="text-blue-400 hover:text-blue-300 transition">
@@ -212,9 +214,9 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Copyright Section */}
-        <div className="border-t border-gray-700 mt-10 pt-6 text-center text-gray-500 text-sm">
+        <div className="border-t border-gray-700 mt-10 pt-6 text-center text-gray-100 text-sm">
           <p>
-            Copyright © englearning.online. All rights reserved. 2025
+            <span className="text-yellow-500"> Copyright ©</span> englearning.online. All rights reserved. 2025
           </p>
         </div>
       </div>
