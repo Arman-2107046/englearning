@@ -114,6 +114,8 @@ const CourseCard: React.FC<{ course: Course }> = ({ course }) => (
 
     {/* Content */}
     <div className="p-5 flex flex-col justify-between h-56">
+
+      
       <div>
         <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-indigo-700 transition-colors">
           {course.title}
