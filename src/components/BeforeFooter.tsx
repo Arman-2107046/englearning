@@ -27,7 +27,7 @@ const PromoBanner: React.FC = () => {
       {/* Content Section */}
       <div className="w-full md:w-1/2 text-center md:text-left mt-10 md:mt-0 relative z-10">
         <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-yellow-400 via-orange-400 to-pink-400 text-transparent bg-clip-text mb-6 drop-shadow-lg">
-          ডাউনলোড করুন App
+          ডাউনলোড করুন Mobile App
         </h2>
 
         {/* Statistics */}
