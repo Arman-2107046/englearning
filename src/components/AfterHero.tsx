@@ -1,4 +1,4 @@
-import React from "react";
+
 
 interface Course {
   id: number;
@@ -95,8 +95,6 @@ const categories = [
   "Recorded Courses",
 ];
 
-// Reuse your CourseCard component here...
-// (no changes needed in CourseCard)
 
 const CourseCard: React.FC<{ course: Course }> = ({ course }) => (
   <div className="bg-white/80 backdrop-blur-md rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden group transform hover:-translate-y-2 border border-gray-100">
@@ -115,7 +113,7 @@ const CourseCard: React.FC<{ course: Course }> = ({ course }) => (
     {/* Content */}
     <div className="p-5 flex flex-col justify-between h-56">
 
-      
+
       <div>
         <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-indigo-700 transition-colors">
           {course.title}

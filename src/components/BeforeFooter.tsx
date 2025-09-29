@@ -1,13 +1,11 @@
-import React from "react";
 
 const PromoBanner: React.FC = () => {
   return (
     <div
       className="relative text-white py-16 px-6 md:px-12 flex flex-col md:flex-row items-center justify-between overflow-hidden"
       style={{
-        background: "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%)",
-        // backgroundImage:
-        //   "url('https://www.transparenttextures.com/patterns/batthern.png')",
+        background:
+          "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%)",
       }}
     >
       {/* Glow Effect Background */}
@@ -55,16 +53,11 @@ const PromoBanner: React.FC = () => {
 
         {/* Download Buttons */}
         <div className="flex justify-center md:justify-start space-x-4">
-
           <a
             href="#"
             className="transform hover:scale-105 transition duration-300"
           >
-            <img
-              src="/play.png"
-              alt="Get it on Google Play"
-              className="h-14"
-            />
+            <img src="/play.png" alt="Get it on Google Play" className="h-14" />
           </a>
         </div>
       </div>

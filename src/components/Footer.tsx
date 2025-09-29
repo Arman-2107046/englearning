@@ -15,7 +15,6 @@ const Footer: React.FC = () => {
               One of the Best Online Platforms for Learning English for
               Students, Professionals & Job seekers.{" "}
             </p>
-            {/* <p className="text-gray-400">উত্তম, একটু আলোকিত দোর</p> */}
           </div>
 
           {/* Help Section */}
