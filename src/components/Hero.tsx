@@ -53,7 +53,12 @@ const Hero: React.FC = () => {
       },
       {
         breakpoint: 768,
-        settings: { slidesToShow: 1, slidesToScroll: 1, arrows: false, dots: true },
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          dots: true,
+        },
       },
     ],
   };
@@ -96,7 +101,7 @@ const Hero: React.FC = () => {
             </span>
           </div>
           <p className="mb-4 sm:mb-6 text-base sm:text-lg text-center lg:text-left">
-            পছন্দের স্কিল শিখুন, নিজেকে সেরা করে গড়ে তুলুন
+            আপনার পছন্দের কোর্সটি বেছে নিন
           </p>
 
           {/* Live Courses Carousel */}
@@ -110,7 +115,9 @@ const Hero: React.FC = () => {
                       alt={course.title}
                       className="h-32 sm:h-40 w-full object-cover"
                     />
-                    <p className="text-xs sm:text-sm mt-2 text-center p-2">{course.title}</p>
+                    <p className="text-xs sm:text-sm mt-2 text-center p-2">
+                      {course.title}
+                    </p>
                   </div>
                 </div>
               ))}
@@ -134,7 +141,7 @@ const Hero: React.FC = () => {
             </span>
           </div>
           <p className="mb-4 sm:mb-6 text-base sm:text-lg text-center lg:text-left">
-            পছন্দের স্কিল শিখুন, নিজেকে সেরা করে গড়ে তুলুন
+            আপনার পছন্দের কোর্সটি বেছে নিন
           </p>
 
           {/* Recorded Courses Carousel */}
@@ -148,7 +155,9 @@ const Hero: React.FC = () => {
                       alt={course.title}
                       className="h-32 sm:h-40 w-full object-cover"
                     />
-                    <p className="text-xs sm:text-sm mt-2 text-center p-2">{course.title}</p>
+                    <p className="text-xs sm:text-sm mt-2 text-center p-2">
+                      {course.title}
+                    </p>
                   </div>
                 </div>
               ))}
